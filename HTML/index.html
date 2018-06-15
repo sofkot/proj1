@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Тест для рекрутера</title>
+  </head>
+  <body>
+    <h2>Тест для рекрутера</h2>
+    <p class="start">
+      <button onclick="start()" class="check">Начать</button>
+     <button onclick="cancel()" id="cancel">Отмена</button>
+   </p>
+    <div id="q1" style="display:none">
+      <h4>1. Каким рекрутингом занимается кадровое агентство? </h4>
+      <input type="radio" >1. Внешним рекрутингом <br>
+      <input type="radio" >2. Внутренним рекрутингом <br>
+      <input type="radio" >3. Внешним и внутренним рекрутингом <br>
+      <input type="radio" >4. Не знаю, в чем отличия одного от другого <br>
+      <button class="check">Проверить</button>
+      <button class="next" onclick="showQ2()">Далее</button>
+    </div>
+    <div id="q2" style="display:none">
+      <h4>2. Нужно ли пользоваться социальными сетями при подборе персонала?<h4>
+      <p class="answer">1. Да, конечно, только там и надо искать кандидатов</p>
+      <p class="answer">2. При чём тут социальные сети – там только картинки и ненужная информация</p>
+      <p class="answer">3. Социальные сети – один из источников поиска персонала, необходимо понимать аудиторию каждой из них для определения качественного подбора</p>
+      <p class="answer">4. Я считаю, что это просто трата времени</p>
+      <input type="number" min="1" max="4" step="1">
+      <button class="check">Проверить</button>
+      <button class="next" onclick="showQ3()">Далее</button>
+    </div>
+    <div id="q3" style="display: none;">
+      <h4>3. Какими видами интервью пользуется обычно рекрутер?</h4>
+      <input type="checkbox" name="1">1. Телефонное интервью<br>
+      <input type="checkbox" name="2">2. Структурированное интервью<br>
+      <input type="checkbox" name="3">3. Неструктурированное интервью<br>
+      <input type="checkbox" name="4">4. Интервью по компетенциям<br>
+      <input type="checkbox" name="5">5. Кейс-интервью<br>
+      <input type="checkbox" name="6">6. Проективное интервью<br>
+      <input type="checkbox" name="7">7. Стрессовое интервью<br>
+      <input type="checkbox" name="8">8. Групповое интервью<br>
+      <button class="check">Проверить</button>
+      <button class="next" onclick="showQ4()">Далее</button>
+    </div>
+    <div id="q4" style="display: none;">
+      <h4>4. Как провести стрессовое интервью?</h4>
+      <p class="answer">1. Предлагать кандидату кейсы и вопросы, целью которых является вывод из зоны комфорта </p>
+      <p class="answer">2. Общаться с кандидатом в грубой манере </p>
+      <p class="answer">3. Заставить ждать один час, а потом перенести собеседование на завтра</p>
+      <p class="answer">4. Во время ответов кандидата, перебивать его, задавая неожиданные вопросы</p>
+      <textarea placeholder="Введите номер правильного ответа" autofocus=""></textarea>
+      <button class="check">Проверить</button>
+      <button class="next">Далее</button>
+    </div>
+  </body>
+</html>
