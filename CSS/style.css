@@ -1,0 +1,40 @@
+.start {
+  text-align: center;
+}
+.answer{
+  margin: 3px;
+  padding: 0px;
+}
+h2{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+button{
+	border-radius: 7px;
+	background-color: #7FFFD4;
+	outline: none;
+	font-family: serif;
+	font-size: 16px;
+	margin-top:  7px;
+}
+.check{
+	background-color: #63FF48;
+}
+.next{
+	background-color: #FF7948;
+}
+textarea{
+	outline: none;
+	resize: none;
+}
+#cancel{
+	background-color: #808080;
+}
+body{
+	font-family: serif;
+}
+p{
+	font-weight: normal;
+}
+
