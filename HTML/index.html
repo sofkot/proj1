@@ -9,38 +9,34 @@
     <h2>Тест для рекрутера</h2>
     <p class="start">
       <button onclick="start()" class="check">Начать</button>
-     <button onclick="cancel()" class="cancel">Отмена</button>
+     <button onclick="cancel()" class="cancel">Заново</button>
    </p>
     <div id="q1" style="display:none">
        <h4>1. Каким рекрутингом занимается кадровое агентство? </h4>
-       <input type="radio" value="1" id="qa1"> 1. Внешним рекрутингом <br>
-       <input type="radio" value="2" id="qa2"> 2. Внутренним рекрутингом <br>
-       <input type="radio" value="3" id="qa3"> 3. Внешним и внутренним рекрутингом <br>
-       <input type="radio" value="4" id="qa4"> 4. Не знаю, в чем отличия одного от другого <br>
-       <button class="check" onclick="check()">Проверить</button>
+       <input type="radio" value="1" name="qq1" > 1. Внешним рекрутингом <br>
+       <input type="radio" value="2" name="qq1" > 2. Внутренним рекрутингом <br>
+       <input type="radio" value="3" name="qq1" > 3. Внешним и внутренним рекрутингом <br>
+       <input type="radio" value="4" name="qq1" > 4. Не знаю, в чем отличия одного от другого <br>
        <button class="next" onclick="showQ2()">Далее</button>
     </div>
     <div id="q2" style="display:none">
        <h4>2. Нужно ли пользоваться социальными сетями при подборе персонала?<h4>
-       <p class="answer">1. Да, конечно, только там и надо искать кандидатов</p>
-       <p class="answer">2. При чём тут социальные сети – там только картинки и ненужная информация</p>
-       <p class="answer">3. Социальные сети – один из источников поиска персонала, необходимо понимать аудиторию каждой из них для определения качественного подбора</p>
-       <p class="answer">4. Я считаю, что это просто трата времени</p>
-       <input type="number" min="1" max="4" step="1">
-        <button class="check">Проверить</button>
+       <input type="radio" value="1" name="qq2" > 1. Социальные сети – один из источников поиска персонала, необходимо понимать аудиторию каждой из них для определения качественного подбора <br>
+       <input type="radio" value="2" name="qq2" > 2. При чём тут социальные сети – там только картинки и ненужная информация <br>
+       <input type="radio" value="3" name="qq2" > 3. Да, конечно, только там и надо искать кандидатов <br>
+       <input type="radio" value="4" name="qq2" > 4. Я считаю, что это просто трата времени <br>
        <button class="next" onclick="showQ3()">Далее</button>
     </div>
     <div id="q3" style="display: none;">
       <h4>3. Какими видами интервью пользуется обычно рекрутер?</h4>
-      <input type="checkbox" value="1">1. Телефонное интервью<br>
-      <input type="checkbox" value="2">2. Структурированное интервью<br>
-      <input type="checkbox" value="3">3. Неструктурированное интервью<br>
-      <input type="checkbox" value="4">4. Интервью по компетенциям<br>
-      <input type="checkbox" value="5">5. Кейс-интервью<br>
-      <input type="checkbox" value="6">6. Проективное интервью<br>
-      <input type="checkbox" value="7">7. Стрессовое интервью<br>
-      <input type="checkbox" value="8">8. Групповое интервью<br>
-     <button class="check">Проверить</button>
+      <input type="checkbox" value="1" class="qq3">1. Телефонное интервью<br>
+      <input type="checkbox" value="2" class="qq3">2. Структурированное интервью<br>
+      <input type="checkbox" value="3" class="qq3">3. Неструктурированное интервью<br>
+      <input type="checkbox" value="4" class="qq3">4. Интервью по компетенциям<br>
+      <input type="checkbox" value="5" class="qq3">5. Кейс-интервью<br>
+      <input type="checkbox" value="6" class="qq3">6. Проективное интервью<br>
+      <input type="checkbox" value="7" class="qq3">7. Стрессовое интервью<br>
+      <input type="checkbox" value="8" class="qq3">8. Групповое интервью<br>
       <button class="next" onclick="showQ4()">Далее</button>
     </div>
     <div id="q4" style="display: none;">
@@ -50,7 +46,6 @@
       <p class="answer">3. Заставить ждать один час, а потом перенести собеседование на завтра</p>
       <p class="answer">4. Во время ответов кандидата, перебивать его, задавая неожиданные вопросы</p>
       <textarea placeholder="Введите номер правильного ответа" autofocus=""></textarea>
-      <button class="check">Проверить</button>
       <button class="next" onclick="showQ5()">Далее</button>
     </div>
     <div id="q5" style="display: none;">
@@ -63,8 +58,11 @@
       <input type="checkbox" value="6">6. Оповестить действующих работников<br>
       <input type="checkbox" value="7">7. Активно звонить по резюме и базам соискателей<br>
       <input type="checkbox" value="8">8. Обратиться в социальный центр занятости – они знают, как их найти <br>
-      <button class="check">Проверить</button>
+      <button class="check" onclick="pr()">Проверить</button>
       <button class="next">Далее</button>
-  </div>
+   </div>
+   <div id="r" style="display: none;">
+    <button onclick="rez()" class="itog">Узнать результат</button>
+   </div>
  </body>
 </html>
