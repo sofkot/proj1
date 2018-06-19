@@ -10,26 +10,33 @@ h2{
   margin: 0px;
   padding: 0px;
 }
-button{
-	border-radius: 7px;
-	background-color: #7FFFD4;
-	outline: none;
-	font-family: serif;
-	font-size: 16px;
-	margin-top:  7px;
-}
 .check{
 	background-color: #63FF48;
+  border-radius: 7px;
+  outline: none;
+	font-family: serif;
+	font-size: 16px;
+	margin-top:  7px
 }
 .next{
 	background-color: #FF7948;
+  border-radius: 7px;
+  outline: none;
+	font-family: serif;
+	font-size: 16px;
+	margin-top:  7px
 }
 textarea{
 	outline: none;
 	resize: none;
 }
-#cancel{
-	background-color: #808080;
+.cancel{
+	background-color: grey;
+  border-radius: 7px;
+  outline: none;
+	font-family: serif;
+	font-size: 16px;
+	margin-top:  7px
 }
 body{
 	font-family: serif;
@@ -37,4 +44,3 @@ body{
 p{
 	font-weight: normal;
 }
-
