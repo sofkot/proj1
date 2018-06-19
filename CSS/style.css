@@ -11,20 +11,20 @@ h2{
   padding: 0px;
 }
 .check{
-	background-color: #63FF48;
+	background-color: #6be02c;
   border-radius: 7px;
   outline: none;
 	font-family: serif;
 	font-size: 16px;
-	margin-top:  7px
+	margin-top:  7px;
 }
 .next{
-	background-color: #FF7948;
+	background-color: #2be2be;
   border-radius: 7px;
   outline: none;
 	font-family: serif;
 	font-size: 16px;
-	margin-top:  7px
+	margin-top:  7px;
 }
 textarea{
 	outline: none;
@@ -36,11 +36,19 @@ textarea{
   outline: none;
 	font-family: serif;
 	font-size: 16px;
-	margin-top:  7px
+	margin-top:  7px;
 }
 body{
 	font-family: serif;
 }
 p{
 	font-weight: normal;
+}
+.itog{
+	background-color: #f7f25d;
+  	border-radius: 7px;
+ 	outline: none;
+	font-family: serif;
+	font-size: 16px;
+	margin-top:  10px;
 }
