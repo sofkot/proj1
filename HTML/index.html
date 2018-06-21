@@ -8,7 +8,7 @@
   <body>
     <h2>Тест для рекрутера</h2>
     <p class="start">
-      <button onclick="start()" class="check">Начать</button>
+     <button onclick="start()" class="check">Начать</button>
      <button onclick="cancel()" class="cancel">Заново</button>
    </p>
     <div id="q1" style="display:none">
@@ -20,7 +20,7 @@
        <button class="next" onclick="showQ2()">Далее</button>
     </div>
     <div id="q2" style="display:none">
-       <h4>2. Нужно ли пользоваться социальными сетями при подборе персонала?<h4>
+       <h4>2. Нужно ли пользоваться социальными сетями при подборе персонала?</h4>
        <input type="radio" value="1" name="qq2" > 1. Социальные сети – один из источников поиска персонала, необходимо понимать аудиторию каждой из них для определения качественного подбора <br>
        <input type="radio" value="2" name="qq2" > 2. При чём тут социальные сети – там только картинки и ненужная информация <br>
        <input type="radio" value="3" name="qq2" > 3. Да, конечно, только там и надо искать кандидатов <br>
@@ -29,23 +29,23 @@
     </div>
     <div id="q3" style="display: none;">
       <h4>3. Какими видами интервью пользуется обычно рекрутер?</h4>
-      <input type="checkbox" value="1" class="qq3">1. Телефонное интервью<br>
-      <input type="checkbox" value="2" class="qq3">2. Структурированное интервью<br>
-      <input type="checkbox" value="3" class="qq3">3. Неструктурированное интервью<br>
-      <input type="checkbox" value="4" class="qq3">4. Интервью по компетенциям<br>
-      <input type="checkbox" value="5" class="qq3">5. Кейс-интервью<br>
-      <input type="checkbox" value="6" class="qq3">6. Проективное интервью<br>
-      <input type="checkbox" value="7" class="qq3">7. Стрессовое интервью<br>
-      <input type="checkbox" value="8" class="qq3">8. Групповое интервью<br>
+      <input type="checkbox" value="1" name="qq3">1. Телефонное интервью<br>
+      <input type="checkbox" value="2" name="qq3">2. Структурированное интервью<br>
+      <input type="checkbox" value="3" name="qq3">3. Неструктурированное интервью<br>
+      <input type="checkbox" value="4" name="qq3">4. Интервью по компетенциям<br>
+      <input type="checkbox" value="5" name="qq3">5. Кейс-интервью<br>
+      <input type="checkbox" value="6" name="qq3">6. Проективное интервью<br>
+      <input type="checkbox" value="7" name="qq3">7. Стрессовое интервью<br>
+      <input type="checkbox" value="8" name="qq3">8. Групповое интервью<br>
       <button class="next" onclick="showQ4()">Далее</button>
     </div>
     <div id="q4" style="display: none;">
       <h4>4. Как провести стрессовое интервью?</h4>
-      <p class="answer">1. Предлагать кандидату кейсы и вопросы, целью которых является вывод из зоны комфорта </p>
-      <p class="answer">2. Общаться с кандидатом в грубой манере </p>
-      <p class="answer">3. Заставить ждать один час, а потом перенести собеседование на завтра</p>
-      <p class="answer">4. Во время ответов кандидата, перебивать его, задавая неожиданные вопросы</p>
-      <textarea placeholder="Введите номер правильного ответа" autofocus=""></textarea>
+      <p class="answer" value="1">1. Предлагать кандидату кейсы и вопросы, целью которых является вывод из зоны комфорта </p>
+      <p class="answer" value="2">2. Общаться с кандидатом в грубой манере </p>
+      <p class="answer" value="3"> 3. Заставить ждать один час, а потом перенести собеседование на завтра</p>
+      <p class="answer" value="4">4. Во время ответов кандидата, перебивать его, задавая неожиданные вопросы</p>
+      <textarea placeholder="Введите номер правильного ответа" autofocus="" id="textarea"></textarea>
       <button class="next" onclick="showQ5()">Далее</button>
     </div>
     <div id="q5" style="display: none;">
@@ -63,6 +63,9 @@
    </div>
    <div id="r" style="display: none;">
     <button onclick="rez()" class="itog">Узнать результат</button>
+   </div>
+   <div id="rezult" style="display: none;">
+    <h4>Поздравляем!</h4>
    </div>
  </body>
 </html>
