@@ -1,4 +1,4 @@
-function start() {
+unction start() {
    document.getElementById('q1').style.display = "block";
 }
 function showQ2() {
@@ -55,7 +55,7 @@ function pr() {
       document.getElementById("q3").style.backgroundColor = "#89ff87";
   }
   else {
-      if(q3a[0,1,2,3,4,5,6,7].unchecked){
+      if (q3a[0,1,2,3,4,5,6,7].){
          document.getElementById("q3").style.backgroundColor = '#ff5454';
       }
       else{
@@ -77,5 +77,5 @@ function rez(){
 
 
    //document.getElementById("q2").style.backgroundColor = "#89ff87";
-   //document.getElementById("q2").style.backgroundColor = "#cd7f32";
+   //document.getElementById("q2").style.backgroundColor = "#FFAD18";
    //document.getElementById("q2").style.backgroundColor = "#ff5454";
