@@ -1,94 +1,94 @@
-function start() {
+function start() { //функция показывающая 1-ый блок
    document.getElementById('q1').style.display = "block";
 }
-function showQ2() {
+function showQ2() {//функция показывающая 2-ой блок
    document.getElementById('q2').style.display = "block";
 }
-function cancel() {
-   document.getElementById('q1').style.display = "none";
-   document.getElementById('q2').style.display = "none";
-   document.getElementById('q3').style.display = "none";
-   document.getElementById('q4').style.display = "none";
-   document.getElementById('q5').style.display = "none";
-   document.getElementById("q1").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q2").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q3").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q4").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q5").style.backgroundColor = "#FFFFFF";
-   document.getElementById('q6').style.display = "none";
-   document.getElementById('q7').style.display = "none";
-   document.getElementById('q8').style.display = "none";
-   document.getElementById('q9').style.display = "none";
-   document.getElementById('q10').style.display = "none";
-   document.getElementById("q6").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q7").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q8").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q9").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q10").style.backgroundColor = "#FFFFFF";
-   document.getElementById('q11').style.display = "none";
-   document.getElementById('q12').style.display = "none";
-   document.getElementById('q13').style.display = "none";
-   document.getElementById('q14').style.display = "none";
-   document.getElementById('q15').style.display = "none";
-   document.getElementById("q11").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q12").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q13").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q14").style.backgroundColor = "#FFFFFF";
-   document.getElementById("q15").style.backgroundColor = "#FFFFFF";
-   document.getElementById('r').style.display = "none";
-   document.getElementById('rezult').style.display = "none";
-   i=0;
+function cancel() { //Функция скрывающая блоки (с вопросами), убирающая заливку
+   document.getElementById('q1').style.display = "none";//скрывает блок (1 вопрос)
+   document.getElementById('q2').style.display = "none";//скрывает блок (2 вопрос)
+   document.getElementById('q3').style.display = "none";//скрывает блок (3 вопрос)
+   document.getElementById('q4').style.display = "none";//скрывает блок (4 вопрос)
+   document.getElementById('q5').style.display = "none";//скрывает блок (5 вопрос)
+   document.getElementById("q1").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q2").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q3").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q4").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q5").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById('q6').style.display = "none";//скрывает блок (6 вопрос)
+   document.getElementById('q7').style.display = "none";//скрывает блок (7 вопрос)
+   document.getElementById('q8').style.display = "none";//скрывает блок (8 вопрос)
+   document.getElementById('q9').style.display = "none";//скрывает блок (9 вопрос)
+   document.getElementById('q10').style.display = "none";//скрывает блок (10 вопрос)
+   document.getElementById("q6").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q7").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q8").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q9").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q10").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById('q11').style.display = "none";//скрывает блок (11 вопрос)
+   document.getElementById('q12').style.display = "none";//скрывает блок (12 вопрос)
+   document.getElementById('q13').style.display = "none";//скрывает блок (13 вопрос)
+   document.getElementById('q14').style.display = "none";//скрывает блок (14 вопрос)
+   document.getElementById('q15').style.display = "none";//скрывает блок (15 вопрос)
+   document.getElementById("q11").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q12").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q13").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q14").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById("q15").style.backgroundColor = "#FFFFFF";//убирает заливку (верный/ложный ответ)
+   document.getElementById('r').style.display = "none";//скрывает блок "узнать результат"
+   document.getElementById('rezult').style.display = "none";////скрывает блок результатов
+   i=0;//обнуление счётчика
 }
-function showQ3() {
+function showQ3() { //функция показывающая 3-ий блок
    document.getElementById('q3').style.display = "block";
 }
-function showQ4() {
+function showQ4() { //функция показывающая 4-ый блок
    document.getElementById('q4').style.display = "block";
 }
-function showQ5() {
+function showQ5() { //функция показывающая 5-ый блок
    document.getElementById('q5').style.display = "block";
 }
-function showQ6() {
+function showQ6() { //функция показывающая 6-ой блок
    document.getElementById('q6').style.display = "block";
 }
-function showQ7() {
+function showQ7() { //функция показывающая 7-ой блок
    document.getElementById('q7').style.display = "block";
 }
-function showQ8() {
+function showQ8() { //функция показывающая 8-ой блок
    document.getElementById('q8').style.display = "block";
 }
-function showQ9() {
+function showQ9() { //функция показывающая 9-ый блок
    document.getElementById('q9').style.display = "block";
 }
-function showQ10() {
+function showQ10() { //функция показывающая 10-ый блок
    document.getElementById('q10').style.display = "block";
 }
-function showQ11() {
+function showQ11() { //функция показывающая 11-ый блок
    document.getElementById('q11').style.display = "block";
 }
-function showQ12() {
+function showQ12() { //функция показывающая 12-ый блок
    document.getElementById('q12').style.display = "block";
 }
-function showQ13() {
+function showQ13() { //функция показывающая 13-ый блок
    document.getElementById('q13').style.display = "block";
 }
-function showQ14() {
+function showQ14() { //функция показывающая 14-ый блок
    document.getElementById('q14').style.display = "block";
 }
-function showQ15() {
+function showQ15() { //функция показывающая 15-ый блок
    document.getElementById('q15').style.display = "block";
 }
-var i=0;
+var i=0; //создание пустой переменной для счётчика
 
-function pr() {
+function pr() { //Функция проверки ответов
 //////////1 вопрос//////////////
-  var q1a=document.getElementsByName("qq1");
-  if (q1a[2].checked){
-   i++;
-   document.getElementById("q1").style.backgroundColor = "#89ff87";
+  var q1a=document.getElementsByName("qq1");//создание переменной для ответов 1-ого вопроса
+  if (q1a[2].checked){ //условие для проверки верности ответа
+   i++; //увеличение счётчика
+   document.getElementById("q1").style.backgroundColor = "#89ff87";//заливка блока - верно
   }
   else {
-   document.getElementById("q1").style.backgroundColor = '#ff5454';
+   document.getElementById("q1").style.backgroundColor = '#ff5454';//заливка блока - неверно
   }
 //////////2 вопрос//////////////
   var q2a=document.getElementsByName("qq2");
@@ -226,12 +226,11 @@ else {
       }
     }
 document.getElementById('r').style.display = "block";
+///Блокирование кнопки "Проверить"/////
+var chec=document.getElementById("check");
+chec.setAttribute("disabled", "true");
 }
-function rez(){
+function rez(){ //Функция, показывающая блок с результатами и счётчик
    document.getElementById('rezult').style.display = "block";
+   document.getElementById("result").innerHTML = i;
 }
-
-
-   //document.getElementById("q2").style.backgroundColor = "#89ff87";
-   //document.getElementById("q2").style.backgroundColor = "#FFAD18";
-   //document.getElementById("q2").style.backgroundColor = "#ff5454";
