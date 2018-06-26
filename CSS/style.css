@@ -1,49 +1,68 @@
+/*стили для начального блока*/
 .start {
   text-align: center;
 }
+/*стили для блока ответа*/
 .answer{
   margin: 3px;
   padding: 0px;
 }
+/*стили для заголовка 2-ого уровня*/
 h2{
   text-align: center;
   margin: 0px;
   padding: 0px;
+  color: white;
 }
-.check{
+/*стили для кнопки "начать"*/
+.nach{
 background-color: #E42E00;
-
 }
+/*стили для кнопки "проверить"*/
+#check{
+background-color: #E42E00;
+}
+/*стили для кнопки "далее"*/
 .next{
 	background-color: #00db07;
 }
+/*стили для поля ввода текста*/
 textarea{
 	outline: none;
 	resize: none;
+  background-color:transparent;
+	width:50%;
+    height: 5%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #fff;
+    margin-top: 10px;
 }
-.cancel{
+/*стили для кнопки "отмена"*/
+.can{
 	background-color: grey;
 }
+/*стили для элементов страницы*/
 body{
-	font-family: serif;
   background-image: url(../IMJ/pinkdust.png);
+  font-family: Tahoma, sans-serif;
+  font-size:14px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 5%;
 }
+/*стили для абзацев*/
 p{
 	font-weight: normal;
 }
+/*стили для кнопки "узнать результат"*/
 .itog{
 	background-color: #7F00BE;
 }
+/*стили для заголовков 4-ого и 6-ого уровней*/
 h4, h6{
 	text-align: center;
 }
-body {
-    font-family: Tahoma, sans-serif;
-    font-size:14px;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 5%;
-}
+/*Стили для блоков*/
 div {
     margin-bottom:15px;
     width:auto;
@@ -51,19 +70,31 @@ div {
     background-color: #ffffff;
     border: 2px solid #D4D4D4;
     border-radius: 30px;
-    box-shadow: 0 0 15px #A9A9A9;
     margin-right:  5%;
     margin-left: 5%;
     padding: 12px;
     position: relative;
 }
+/*стили для кнопки "пройти "*/
+#cancel{
+  background-color: grey;
+  text-align: center;
+  margin-left: 43%;
+}
+/*стили для абзацев*/
+.res{
+  text-align: center;
+}
+/*стили для блока "узнать результат"*/
 #r{
 	text-align: center;
 	align-self: center;
 	align-content: center;
 	vertical-align: middle;
 	padding-bottom: 15px;
+  background-color: #7F00BE;
 }
+/*стили для кнопок*/
 button {
   text-decoration: none;
   outline: none;
@@ -78,34 +109,13 @@ button {
   color: white;
   transition: .2s ease-in-out;
 }
-button:before {
-  background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top: -8px;
-  left: -75px;
-  transform: skewX(-45deg);
-}
+/*стили для кнопок (при наведении курсора)*/
 button:hover {
   background: #000;
   color: #fff;
 }
-button:hover:before {
-  left: 150px;
-  transition: .5s ease-in-out;
-}
-textarea{
-	background-color:transparent;
-	width:50%;
-    height: 5%;
-    border-radius: 5px;
-    box-shadow: 0 0 15px #fff;
-    margin-top: 10px;
-}
-h2{
-  color: white;
-}
-#r{
-  background-color: #7F00BE;
+/*стили для параграфа с рузультатом*/
+#result{
+  font-size:24px;
+  text-align: center;
 }
