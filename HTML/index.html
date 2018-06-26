@@ -8,10 +8,10 @@
   <body>
     <h2>Тест для рекрутера</h2>
     <p class="start">
-     <button onclick="start()" class="check">Начать</button>
-     <button onclick="cancel()" class="cancel">Заново</button>
+     <button onclick="start()" class="nach">Начать</button>
+     <button onclick="cancel()" class="can">Заново</button>
    </p>
-    <div id="q1" style="display:none">
+    <div id="q1" style="display:none"> <!--вопрос 1 -->
        <h4>1. Каким рекрутингом занимается кадровое агентство? </h4>
        <input type="radio" value="1" name="qq1" > 1. Внешним рекрутингом <br>
        <input type="radio" value="2" name="qq1" > 2. Внутренним рекрутингом <br>
@@ -19,7 +19,7 @@
        <input type="radio" value="4" name="qq1" > 4. Не знаю, в чем отличия одного от другого <br>
        <button class="next" onclick="showQ2()">Далее</button>
     </div>
-    <div id="q2" style="display:none">
+    <div id="q2" style="display:none"> <!--вопрос 2 -->
        <h4>2. Нужно ли пользоваться социальными сетями при подборе персонала?</h4>
        <input type="radio" value="1" name="qq2" > 1. Социальные сети – один из источников поиска персонала, необходимо понимать аудиторию каждой из них для определения качественного подбора <br>
        <input type="radio" value="2" name="qq2" > 2. При чём тут социальные сети – там только картинки и ненужная информация <br>
@@ -27,7 +27,7 @@
        <input type="radio" value="4" name="qq2" > 4. Я считаю, что это просто трата времени <br>
        <button class="next" onclick="showQ3()">Далее</button>
     </div>
-    <div id="q3" style="display: none;">
+    <div id="q3" style="display: none;"> <!--вопрос 3 -->
       <h4>3. Какими видами интервью пользуется обычно рекрутер?</h4>
       <input type="checkbox" value="1" name="qq3">1. Телефонное интервью<br>
       <input type="checkbox" value="2" name="qq3">2. Структурированное интервью<br>
@@ -39,7 +39,7 @@
       <input type="checkbox" value="8" name="qq3">8. Групповое интервью<br>
       <button class="next" onclick="showQ4()">Далее</button>
     </div>
-    <div id="q4" style="display: none;">
+    <div id="q4" style="display: none;"> <!--вопрос 4 -->
       <h4>4. Как провести стрессовое интервью?</h4>
       <p class="answer" value="1">1. Предлагать кандидату кейсы и вопросы, целью которых является вывод из зоны комфорта </p>
       <p class="answer" value="2">2. Общаться с кандидатом в грубой манере </p>
@@ -48,7 +48,7 @@
       <textarea placeholder="Введите номер правильного ответа" autofocus="" id="textarea"></textarea>
       <button class="next" onclick="showQ5()">Далее</button>
     </div>
-    <div id="q5" style="display:none">
+    <div id="q5" style="display:none"> <!--вопрос 5 -->
        <h4>5. Какие существуют виды компетенций? </h4>
        <input type="radio" value="1" name="qq5" > 1. Стратегические  <br>
        <input type="radio" value="2" name="qq5" > 2. Мотивационные  <br>
@@ -56,7 +56,7 @@
        <input type="radio" value="4" name="qq5" > 4. Коммуникативные <br>
        <button class="next" onclick="showQ6()">Далее</button>
     </div>
-    <div id="q6" style="display:none">
+    <div id="q6" style="display:none"> <!--вопрос 6 -->
        <h4>6. Какие наиболее часто применяемые методы, где используются компетенции? </h4>
        <input type="radio" value="1" name="qq6" > 1. Метод репертуарных решеток   <br>
        <input type="radio" value="2" name="qq6" > 2. Интервью по компетенциям   <br>
@@ -64,7 +64,7 @@
        <input type="radio" value="4" name="qq6" > 4. Метод прямых атрибутов  <br>
        <button class="next" onclick="showQ7()">Далее</button>
     </div>
-    <div id="q7" style="display:none">
+    <div id="q7" style="display:none"> <!--вопрос 7 -->
        <h4>7. Что методика STAR позволяет узнать о кандидате? </h4>
        <input type="radio" value="1" name="qq7" > 1. Уровень коммуникативных навыков    <br>
        <input type="radio" value="2" name="qq7" > 2. Уровень знания английского языка    <br>
@@ -72,15 +72,15 @@
        <input type="radio" value="4" name="qq7" > 4. Модели поведенческих реакций   <br>
        <button class="next" onclick="showQ8()">Далее</button>
     </div>
-    <div id="q8" style="display:none">
+    <div id="q8" style="display:none"> <!--вопрос 8 -->
        <h4>8. Для чего нужен ассессмент? </h4>
        <input type="radio" value="1" name="qq8" > 1. Для выбора ассистента руководителя    <br>
        <input type="radio" value="2" name="qq8" > 2. Для проработки различных ситуаций, типа “мозгового штурма”    <br>
        <input type="radio" value="3" name="qq8" > 3. Для оценки реальных качеств сотрудников, их психологических и профессиональных особенностей, соответствия требованиям должностных позиций, а также выявление потенциальных возможностей специалистов  <br>
        <input type="radio" value="4" name="qq8" > 4. Для понимания того, как кандидат действует в группе    <br>
        <button class="next" onclick="showQ9()">Далее</button>
-    </div>
-    <div id="q9" style="display:none">
+    </div> 
+    <div id="q9" style="display:none"> <!--вопрос 9 -->
        <h4>9. Что за методика - SHL? </h4>
        <input type="radio" value="1" name="qq9" > 1. Выявления уровня развития лидерских компетенций <br>
        <input type="radio" value="2" name="qq9" > 2. Определение степени умения кандидата обрабатывать и анализировать числовую и текстовую (вербальную) информацию  <br>
@@ -88,7 +88,7 @@
        <input type="radio" value="4" name="qq9" > 4. Проверки на способность к дедукции <br>
        <button class="next" onclick="showQ10()">Далее</button>
     </div>
-    <div id="q10" style="display:none">
+    <div id="q10" style="display:none"> <!--вопрос 10 -->
        <h4>10. Как проверить креативность соискателя? </h4>
        <input type="radio" value="1" name="qq10" > 1. Попросить назвать три профессиональных качества Человека-паука  <br>
        <input type="radio" value="2" name="qq10" > 2. Попросить придумать 10 способов использования степлера <br>
@@ -96,7 +96,7 @@
        <input type="radio" value="4" name="qq10" > 4. Дать типичный рабочий кейс и попросить перечислить максимальное количество решений за фиксированное время  <br>
        <button class="next" onclick="showQ11()">Далее</button>
     </div>
-    <div id="q11" style="display:none">
+    <div id="q11" style="display:none"> <!--вопрос 11 -->
        <h4>11. Сколько человек нужно пригласить на групповое собеседование, чтобы пришло 10 кандидатов? </h4>
        <input type="radio" value="1" name="qq11" > 1. Примерно 20-25 человек  <br>
        <input type="radio" value="2" name="qq11" > 2. Я вам тут не математик, а между прочим рекрутер <br>
@@ -104,7 +104,7 @@
        <input type="radio" value="4" name="qq11" > 4. Ну 10, а в чём вопрос <br>
        <button class="next" onclick="showQ12()">Далее</button>
     </div>
-    <div id="q12" style="display:none">
+    <div id="q12" style="display:none"> <!--вопрос 12 -->
        <h4>12. Вы задаёте на собеседовании вопрос “Кем вы видите себя через 5 лет”, чтобы? </h4>
        <input type="radio" value="1" name="qq12" > 1. Выяснить степень амбициозности кандидата <br>
        <input type="radio" value="2" name="qq12" > 2. Понять, не метит ли кандидат на ваше место <br>
@@ -112,7 +112,7 @@
        <input type="radio" value="4" name="qq12" > 4. Выяснить степень подготовленности кандидата к собеседованию <br>
        <button class="next" onclick="showQ13()">Далее</button>
     </div>
-    <div id="q13" style="display:none">
+    <div id="q13" style="display:none"> <!--вопрос 13 -->
        <h4>13. Какую компетенцию кандидата оценивают, когда задают вопрос: «У нас всех бывают дни, когда мы чувствуем себя перегруженными работой. Приведите пример того, когда вы были перегружены на работе. Как вы реагировали?»? </h4>
        <input type="radio" value="1" name="qq13" > 1. Анализ <br>
        <input type="radio" value="2" name="qq13" > 2. Устойчивость к стрессу <br>
@@ -120,7 +120,7 @@
        <input type="radio" value="4" name="qq13" > 4. Суждение <br>
        <button class="next" onclick="showQ14()">Далее</button>
     </div>
-    <div id="q14" style="display:none">
+    <div id="q14" style="display:none"> <!--вопрос 14 -->
        <h4>14. Какие существуют типы вопросов на интервью? </h4>
        <input type="radio" value="1" name="qq14" > 1. Общие вопросы  <br>
        <input type="radio" value="2" name="qq14" > 2. Специальные вопросы <br>
@@ -128,7 +128,7 @@
        <input type="radio" value="4" name="qq14" > 4. Ненаправленные вопросы  <br>
        <button class="next" onclick="showQ15()">Далее</button>
     </div>
-    <div id="q15" style="display: none;">
+    <div id="q15" style="display: none;"> <!--вопрос 15 -->
       <h4>15. Какие основные способы закрытия вакансий массового подбора?</h4>
       <input type="checkbox" value="1" name="qq15">1. Разместить вакансию на платных и бесплатных сайтах<br>
       <input type="checkbox" value="2" name="qq15">2. Отвечать на входящие звонки <br>
@@ -138,13 +138,17 @@
       <input type="checkbox" value="6" name="qq15">6. Оповестить действующих работников<br>
       <input type="checkbox" value="7" name="qq15">7. Активно звонить по резюме и базам соискателей<br>
       <input type="checkbox" value="8" name="qq15">8. Обратиться в социальный центр занятости – они знают, как их найти <br>
-      <button class="check" onclick="pr()">Проверить</button>
+      <button id="check" onclick="pr()">Проверить</button>
    </div>
-   <div id="r" style="display: none;">
+   <div id="r" style="display: none;"> 
     <button onclick="rez()" class="itog">Узнать результат</button>
    </div>
-   <div id="rezult" style="display: none;">
+   <div id="rezult" style="display: none;"> <!--блок с результатам -->
     <h4>Поздравляем c завершением нашего теста!</h4>
+    <p class="res">Ваш результат:</p>
+    <p id="result"></p>
+    <p class="res">Из 15 возможных</p>
+     <button onclick="cancel()" id="cancel">Пройти тест заново</button>
    </div>
  </body>
 </html>
