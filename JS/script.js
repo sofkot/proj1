@@ -101,12 +101,14 @@ function pr() { //Функция проверки ответов
   }
 //////////3 вопрос//////////////
   var q3a=document.getElementsByName("qq3");
-  if (q3a[0].checked && q3a[5].checked && q3a[1].checked && q3a[2].checked && q3a[3].checked && q3a[4].checked && q3a[6].checked && q3a[7].checked) {
+  if (q3a[0].checked && q3a[5].checked && q3a[1].checked && q3a[2].checked && q3a[3].checked && q3a[4].checked 
+      && q3a[6].checked && q3a[7].checked) {
       i++;
       document.getElementById("q3").style.backgroundColor = "#89ff87";
   }
   else {
-      if (q3a[0].checked || q3a[5].checked || q3a[1].checked || q3a[2].checked || q3a[3].checked || q3a[4].checked || q3a[6].checked || q3a[7].checked) {
+      if (q3a[0].checked || q3a[5].checked || q3a[1].checked || q3a[2].checked || q3a[3].checked || q3a[4].checked 
+          || q3a[6].checked || q3a[7].checked) {
          document.getElementById("q3").style.backgroundColor = "#FFAD18";
       }
       else{
